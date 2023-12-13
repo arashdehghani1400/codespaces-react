@@ -9,7 +9,6 @@ return (
 <button onClick={() => setCount(count + 1)}>Increment</button>
 <button onClick={() => setCount(count > 0 ? count - 1 : 0)}>Decrement</button>
 </div>
-
 );
 };
 export default Counter;
